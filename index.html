@@ -19,23 +19,41 @@
     </header>
 
     <section>
-      <h3>Configuracion de paleta</h3>
+        <h3>Configuracion de paleta</h3>
 
-      <div>
-        <label for="tamaño-paleta">Tamaño de Paleta:</label>
-        <select>
-          <option value="6">6 colores</option>
-          <option value="8">8 colores</option>
-          <option value="9">9 colores</option>
-        </select>
+        <div class="estilo-paleta">
+
+            <div class="configuracion-paleta">
+                <label for="tamaño-paleta">Tamaño de Paleta:</label>
+              <select>
+                 <option value="6">6 colores</option>
+                 <option value="8">8 colores</option>
+                 <option value="9">9 colores</option>
+               </select>
+           </div>
+  
+            <div class="configuracion-paleta">
+                <label for="formato-color">Formato de Color:</label>
+               <select id="formato-color">
+                   <option value="hex">HEX</option>
+                   <option value="hsl">HSL</option>
+                   <option value="rgba">RGBA</option>
+               </select>
+            </div>
+
+            <button class="generar-paleta">
+              Generar Paleta de colores
+            </button>
       </div>
+
+
     </section>
-    
+
+
     <footer>
       <p>&copy; Clean2026. Todos los derechos reservados.</p>
     </footer>
   </main>
-
 
 </body>
 </html>
